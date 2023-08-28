@@ -1,0 +1,32 @@
+:root{
+    --cor1: white;
+    --cor2: black;
+    --cor3: gray;
+}
+
+.header{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    text-align: center;
+    padding: 1rem;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.flex-item{
+    flex: 1;
+    border: 1px solid var(--cor3);
+    padding: 1rem;
+    min-width: 265px;
+}
+
+.footer{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    text-align: center;
+    padding: 1rem;
+}
